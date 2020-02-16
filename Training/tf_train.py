@@ -3,6 +3,9 @@ from utils import *
 from losses import *
 from Generator_Discriminator_Models import *
 
+folder = '/data/train/'
+img_list = glob.glob(folder)
+
 src_shape = (256,256,1)
 tar_shape = (256,256,3)
 
